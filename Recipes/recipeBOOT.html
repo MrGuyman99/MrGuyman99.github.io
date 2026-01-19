@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <title>Bootstrap Recipe</title>
+    <!--Jet Brains + Custom Stylesheet-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+        rel="stylesheet">
+    <style>
+        .jetbrains-mono-font {
+            font-family: "JetBrains Mono", monospace;
+            font-optical-sizing: auto;
+            font-weight: 800;
+            font-style: normal;
+        }
+    </style>
+</head>
+
+<body class="jetbrains-mono-font" style="background-color: gainsboro;">
+    <div class="container">
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="../index.html">Bodie's Portfolio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Recipes
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="recipeHTML.html">HTML Recipe</a>
+                            <a class="dropdown-item" href="recipeCSS.html">HTML + CSS Recipe</a>
+                            <a class="dropdown-item" href="recipeBOOT.html">Bootstrap Recipe</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <a class="nav-link" href="../gallery.html">Gallery</a>
+        </nav>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="../Media/Images/Pizza.png" class="rounded border border-dark d-none d-md-block" width="613px"
+                    height="610px">
+            </div>
+            <div class="col-md-8">
+                <div class="jumbotron rounded shadow">
+                    <h1 class="display-4">Dad's Pizza Recipe</h1>
+                    <p class="lead">Gluten-Free Pizza at its finest</p>
+                    <hr class="my-4">
+                    <p>
+                        In 2017 my sister was diagnosed with Celiac, a genetic disease which made her body <b>unable to
+                            process wheat</b>.
+                        Pizza, up to this point, had been pretty staple in my family. It was easy to prepare and
+                        everyone liked it.
+                        My sister, however, only really liked the crusts of the pizza and since she had celiac she could
+                        no longer eat it.
+                        A couple years later my dad decided he was <u><em>fed up</em></u> with all the Gluten-Free
+                        pizzas and decided to make his own.
+                        You see, making good dough without wheat is really hard so most of the Gluten-Free pizza dough
+                        on the market
+                        was just not good, so it took a couple of attempts to make good (<em>Some of these failed
+                            attempts were borderline disgusting</em>)
+                        However my dad eventually found some good dough, refined the recipe, and he created some
+                        genuinely amazing pizza.
+                        For reference, that dough is the <a
+                            href="https://www.bobsredmill.com/product/gluten-free-pizza-crust-mix" target="_blank">Bob's
+                            Red Mill Pizza Dough</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5 text-area">
+                <ul class="list-group border border-dark shadow">
+                    <li class="list-group-item list-group-item-dark">
+                        <h2>Ingredients:</h2>
+                    </li>
+                    <li class="list-group-item">Gluten Free Dough (Bob's Red Mill!)</li>
+                    <li class="list-group-item">Yeast</li>
+                    <li class="list-group-item">Eggs</li>
+                    <li class="list-group-item">Tablespoon of olive oil</li>
+                    <li class="list-group-item">Toppings:
+                        <ul class="list-group">
+                            <li class="list-group-item list-group-item-secondary">Pepperoni</li>
+                            <li class="list-group-item list-group-item-secondary">Mozzarella</li>
+                            <li class="list-group-item list-group-item-secondary">Tomato Sauce</li>
+                            <li class="list-group-item list-group-item-secondary">Onion</li>
+                            <li class="list-group-item list-group-item-secondary">Basil</li>
+                            <li class="list-group-item list-group-item-secondary">What ever else you want</li>
+                        </ul>
+                    </li>
+                    <li class="list-group-item">Cup and a half of hot water</li>
+                </ul>
+            </div>
+            <div class="col-md-7 text-body text-area">
+                <ol class="list-group border border-dark shadow">
+                    <li class="list-group-item list-group-item-dark">
+                        <h2>Instructions:</h2>
+                    </li>
+                    <li class="list-group-item">Mix all ingredients up (Except the Toppings)</li>
+                    <li class="list-group-item">Let it sit roughly 20-30 minutes</li>
+                    <li class="list-group-item">Flatten out the dough (Use serane wrap, Gluten Free dough is stickier
+                        than normal dough)</li>
+                    <li class="list-group-item">Preheat the oven to 425 degrees fahrenheit</li>
+                    <li class="list-group-item">Put the pizza on a tray (Use parchment paper, dough is sticky!)</li>
+                    <li class="list-group-item">Put the pizza on the tray into the oven</li>
+                    <li class="list-group-item">Cook for 7 minutes
+                        <ul class="list-group">
+                            <li class="list-group-item list-group-item-secondary">Whilst the pizza is cooking prepare
+                                your toppings (e.g Slice Mozzarella)</li>
+                        </ul>
+                    </li>
+                    <li class="list-group-item">Take the dough out after 7 minutes and put the toppings on in the
+                        following order:
+                        <ol class="list-group">
+                            <li class="list-group-item list-group-item-secondary">Tomato Sauce</li>
+                            <li class="list-group-item list-group-item-secondary">Mozzarella</li>
+                            <li class="list-group-item list-group-item-secondary">All other toppings</li>
+                        </ol>
+                    </li>
+                    <li class="list-group-item">Put back in the oven for ~15 minutes</li>
+                    <li class="list-group-item">Enjoy!</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <!--Javascript-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
